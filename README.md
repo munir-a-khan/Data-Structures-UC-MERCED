@@ -40,7 +40,7 @@ The source prints:
 Hello UC Merced
 ```
 
-The direct compiler command follows the compile step in the local Makefile. For another exercise, change to its directory and compile its `main.cpp` the same way. Run programs that read local data from that directory: `WordleHelper` opens `answers.txt` and `allowed.txt` by relative name, and the scheduling driver can read the included `tasks.txt` through standard input. Lab 2's `main.cpp` is empty, so it does not provide an interactive Wordle application.
+The direct compiler command follows the compile step in the local Makefile. For another exercise, change to its directory and compile its `main.cpp` the same way. Run programs that read local data from that directory: `WordleHelper` opens `answers.txt` and `allowed.txt` by relative name, and the scheduling driver reads job data through standard input. Its included `tasks.txt` contains the job count, names, and durations, but omits the final time quantum required by `main.cpp`; supply that positive integer before running the scheduler. Lab 2's `main.cpp` is empty, so it does not provide an interactive Wordle application.
 
 ### Existing tests
 
